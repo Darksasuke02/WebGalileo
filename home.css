@@ -1,0 +1,29 @@
+.container.clear {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+  }
+  
+  .site-branding {
+    text-align: left;
+  }
+  
+  #logo.image-logo {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .custom-logo-link {
+    text-decoration: none;
+  }
+  
+  .custom-logo {
+    max-width: 150px;
+    height: auto;
+  }
+  
+
+  .primary-navigation {
+      text-align: left;
+  }
