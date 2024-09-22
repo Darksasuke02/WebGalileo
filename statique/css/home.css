@@ -1,0 +1,40 @@
+body {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                    url('../pictures/acceuil.jpg'); /* Chemin vers l'image de fond */
+  background-size: 99%; /* L'image couvre toute la page */
+  background-position: top; /* Centre l'image de fond */
+  background-repeat: no-repeat; /* Empêche la répétition de l'image */
+  background-attachment: fixed; /* L'image reste fixe lors du défilement */
+}
+
+
+
+.container.clear {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 20px;
+  }
+  
+  .site-branding {
+    text-align: left;
+  }
+  
+  #logo.image-logo {
+    font-size: 2em;
+    margin: 0;
+  }
+  
+  .custom-logo-link {
+    text-decoration: none;
+  }
+  
+  .custom-logo {
+    max-width: 150px;
+    height: auto;
+  }
+  
+
+  .primary-navigation {
+      text-align: left;
+  }
